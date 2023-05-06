@@ -1,12 +1,13 @@
+// var i = 0;
+// var txt = 'Sorin Junior';
 
-function Intro(props){
-    return(
-        <div className="intro container d-flex justify-content-center align-items-center 
-        border border-warning mt-5">
-            <apresentacao className='apresentacao'>
-                <span className="ola">{props.ola}</span>
-                <Sorin className="sorin ola"></Sorin>
-                <span>{props.intro}</span>
-            </apresentacao>
-        </div>
-    )}
+// function typeWriter() {
+//     if (i < txt.length) {
+//         document.getElementById("nome").innerHTML += txt.charAt(i);
+//         i++;
+//     }
+// }
+
+// function iniciarTypeWriter(){
+//     setInterval(typeWriter, 100)
+// }
