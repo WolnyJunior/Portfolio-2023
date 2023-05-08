@@ -10,4 +10,4 @@
 <p>Também foi usado uma function para flipar os cards, para mostrar mais informações.</p>
 
 <h3>Responsividade</h3>
-<p>O site ainda não está 100% responsivo. Está sendo feito conforme são adicionadas movas funcionalidades e estilos.</p>
+<p>O site ainda não está 100% responsivo. Está sendo feito conforme são adicionadas novas funcionalidades e estilos.</p>
