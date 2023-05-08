@@ -15,15 +15,15 @@
 </head>
 
 <body>
-    <div class="box container-fluid">
+    <div class="box container">
         <div>
             <h2 class="ola">Olá, sou o</h2>
             <h1 id="nome" class=" class-name">Wolny Junior</h1>
             <h5 class="dev-web">Desenvolvedor Web</h5>
             <div class="botoes">
-                <button class="btn btn-outline-info">Sobre</button>
-                <button class="btn btn-outline-info">Portifólio</button>
-                <button class="btn btn-outline-info">Contato</button>
+                <a href="#sobre"><button class="btn btn-outline-info">Sobre</button></a>
+                <a href="#portifolio"><button class="btn btn-outline-info">Portifólio</button></a>
+                <a href="#contato"><button class="btn btn-outline-info">Contato</button></a>
             </div>
         </div>
         <div>
@@ -34,7 +34,7 @@
 
     <div class="sobre fs-4 d-flex justify-content-around m-5">
         <div>
-            <p>Quem eu sou e o que faço</p>
+            <p id="sobre">Quem eu sou e o que faço</p>
         </div>
         <div class="texto-sobre fs-3 d-flex  align-items-center">
             <p>Meu nome é Wolny Junior.
@@ -46,75 +46,78 @@
             </p>
         </div>
     </div>
-    <h2 class="text-center texto-sombra">Portifólio</h2>
+    <h2  id="portifolio" class="text-center texto-sombra">Portifólio</h2>
     <div class="portifolio-linha">
         <div class="cards">
             <img class="img-card" src="./Images/jogo-memoria-react.png" alt="Imagen">
             <div class="botoes">
-                <a href="#"><button class="btn btn-outline-warning">Confira</button></a>
-                <a href="#"><button class="btn btn-outline-light">Github</button></a>
+                <a href="https://jogo-da-memoria-react-liart.vercel.app/" target="_blank"><button class="btn-card btn btn-outline-warning">Confira</button></a>
+                <a href="https://github.com/WolnyJunior/JogoDaMemoria-React" target="_blank"><button class="btn-card btn btn-outline-light">Github</button></a>
             </div>
         </div>
         <div class="cards">
             <img class="img-card" src="./Images/site-delicious.png" alt="Imagen">
             <div class="botoes">
-                <a href="#"><button class="btn btn-outline-warning">Confira</button></a>
-                <a href="#"><button class="btn btn-outline-light">Github</button></a>
+                <a href="https://delicious-xi.vercel.app/" target="_blank"><button class="btn-card btn btn-outline-warning">Confira</button></a>
+                <a href="https://github.com/WolnyJunior/Delicious" target="_blank"><button class="btn-card btn btn-outline-light">Github</button></a>
             </div>
         </div>
         <div class="cards">
             <img class="img-card" src="./Images/pag-receitas.png" alt="Imagen">
             <div class="botoes">
-                <a href="#"><button class="btn btn-outline-warning">Confira</button></a>
-                <a href="#"><button class="btn btn-outline-light">Github</button></a>
+                <a href="https://pagina-de-receitas-two.vercel.app/" target="_blank"><button class="btn-card btn btn-outline-warning">Confira</button></a>
+                <a href="https://github.com/WolnyJunior/PaginaDeReceitas" target="_blank"><button class="btn-card btn btn-outline-light">Github</button></a>
             </div>
         </div>
         <div class="cards">
             <img class="img-card" src="./Images/site-curriculo-ref.png" alt="Imagen">
             <div class="botoes">
-                <a href="#"><button class="btn btn-outline-warning">Confira</button></a>
-                <a href="#"><button class="btn btn-outline-light">Github</button></a>
+                <a href="https://site-curriculo-ref.vercel.app/" target="_blank"><button class="btn-card btn btn-outline-warning">Confira</button></a>
+                <a href="https://github.com/WolnyJunior/site-curriculo-ref" target="_blank"><button class="btn-card btn btn-outline-light">Github</button></a>
             </div>
         </div>
         <div class="cards">
             <img class="img-card" src="./Images/code.jpg" alt="Imagen">
             <div class="botoes">
-                <a href="#"><button class="btn btn-outline-warning">Confira</button></a>
-                <a href="#"><button class="btn btn-outline-light">Github</button></a>
+                <a href="#"><button class="btn-card btn btn-outline-warning">Confira</button></a>
+                <a href="#"><button class="btn-card btn btn-outline-light">Github</button></a>
             </div>
         </div>
         <div class="cards">
             <img class="img-card" src="./Images/code.jpg" alt="Imagen">
             <div class="botoes">
-                <a href="#"><button class="btn btn-outline-warning">Confira</button></a>
-                <a href="#"><button class="btn btn-outline-light">Github</button></a>
+                <a href="#"><button class="btn-card btn btn-outline-warning">Confira</button></a>
+                <a href="#"><button class="btn-card btn btn-outline-light">Github</button></a>
             </div>
         </div>
     </div>
-    <div class="container-fluid">
+    <div>
         <h2 class="text-center texto-fade-in">Tecnologias</h2>
         <div class="fundo-techs">            
-            <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="logo-CSS"/>    
-            <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="logo-HTML"/>
-            <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="logo-Javascript">
-            <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="logo-Bootstrap">
-            <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="logo-Git">
-            <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="logo-Github">
-            <img class="icons" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="logo-React">  
+            <img class="icons-techs" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="logo-CSS"/>
+            <img class="icons-techs" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="logo-HTML"/>
+            <img class="icons-techs" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="logo-Javascript">
+            <img class="icons-techs" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="logo-Bootstrap">
+            <img class="icons-techs" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="logo-Git">
+            <img class="icons-techs" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="logo-Github">
+            <img class="icons-techs" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="logo-React">  
         </div>
     </div>
 
-    <div class="container-fluid">
-        <h2 class="text-center texto-fade-in">Contatos</h2>
-        <h6 class="text-center">Hey, entre em contato</h6>
-        <div class="d-flex justify-content-center align-items-end">
-            <img class="contact-icons" src="./Images/icons/instagram-50.png" alt="icone-instagram">
-            <img class="contact-icons" src="./Images/icons/whatsapp-50.png" alt="icone-whatsapp">
-            <img class="contact-icons" src="./Images/icons/linkedin-50.png" alt="icone-linkedin">
-            <img class="contact-icons" src="./Images/icons/github-50.png" alt="icone-github">
+    <div>
+        <h2 id="contato" class="text-center texto-fade-in">Contatos</h2>
+        <h6 class="text-center">Hey, vamos conversar</h6>
+        <div class="contact">
+            <a href="https://www.instagram.com/juniorsorin/?next=%2F" target="_blank"><img class="contact-icons" src="./Images/icons/instagram-50.png" alt="icone-instagram"></a>
+            <a href="https://wa.me/51996991804" target="_blank"><img class="contact-icons" src="./Images/icons/whatsapp-50.png" alt="icone-whatsapp"></a>
+            <a href="https://www.linkedin.com/in/wolny-junior-soares-magalh%C3%A3es-21a61b128/" target="_blank"><img class="contact-icons" src="./Images/icons/linkedin-50.png" alt="icone-linkedin"></a>
+            <a href="https://github.com/WolnyJunior" target="_blank"><img class="contact-icons" src="./Images/icons/github-50.png" alt="icone-github"></a>
         </div>
     </div>
-    <footer></footer>
+
+    <footer>
+        <a href=""><img src="" alt=""></a>
+    </footer>
     <script src="Script/script.js"></script>
 </body>
 
