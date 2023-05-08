@@ -8,3 +8,6 @@
 <h3>Cards</h3>
 <p>Foram criados os cards com os links dos repositórios e hospedagem.</p>
 <p>Também foi usado uma function para flipar os cards, para mostrar mais informações.</p>
+
+<h3>Responsividade</h3>
+<p>O site ainda não está 100% responsivo. Está sendo feito conforme são adicionadas movas funcionalidades e estilos.</p>
