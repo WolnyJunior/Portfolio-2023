@@ -50,8 +50,52 @@ h5 {
 
 .botoes {
     display: grid;
-    width: 70%;
+    width: 60%;
     margin: auto;
+    justify-content: center;
+}
+
+.botao-link {
+    padding: 7px 30px;
+    margin: 10px;
+    font-size: 2.8vh;
+    border: 1px solid aqua;
+    border-radius: 8px;
+    text-align: center;
+    color: aqua;
+    background: transparent;
+    position: relative;
+}
+
+.botao-link::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: aqua;
+    border-radius: 8px;
+    transition: all .8s ease;
+}
+
+.botao-link:hover:before {
+    width: 100%;
+}
+
+.botao-link:hover {
+    animation: color-text 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes color-text {
+    0% {
+        color: aqua;
+    }
+
+    100% {
+        color: black;
+    }
 }
 
 .foto1 {
@@ -102,22 +146,64 @@ h5 {
     gap: 70px;
 }
 
-.cards {
-    width: 24vw;
-    height: 24vw;
-    border: 1px solid white;
-    display: grid;
-    text-align: center;
-    border-radius: 20px;
+.cartao {
+    width: 22vw;
+    height: 20vw;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    background-color: #111;
 }
-
 .img-card {
     width: 100%;
-    border-radius: 20px 20px 0 0;
 }
 
 .btn-card {
-    font-size: 2.5vh;
+    font-size: 1.2rem;
+}
+
+.bts{
+    outline:none;
+    box-shadow: 0 9px #444;
+    border: 1px solid #999;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    transition: background-color 1s, color 1s;
+}
+
+.bts:active{
+    box-shadow: 0 2px #444;
+    transform: translateY(4px);
+}
+
+.card-front,
+.card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-shadow: 10px 10px 10px #999;
+    color: black;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flip {
+    transform: rotateY(180deg);
+}
+
+.card-front {
+    justify-content: center;
+}
+
+.card-back {
+    background-color: aquamarine;
+    transform: rotateY(180deg);
+    padding: 20px;
+    justify-content: space-around;
 }
 
 .texto-fade-in {
@@ -154,19 +240,24 @@ h5 {
     width: 80px;
     margin: 10px;
 }
-.contact{
+
+.contact {
     display: flex;
     justify-content: center;
-    /* align-items: end; */
 }
 
 .contact-icons {
     width: 30px;
-    margin: 5px;
+    margin: 0 5px 30px 5px;
+    transition: all .5s;    
+}
+
+.contact-icons:hover{
+    transform: scale(1.7);
 }
 
 footer {
-    margin-top: 30px;
+    margin: 0;
     width: 100%;
     height: 50px;
     background-color: #888;

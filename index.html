@@ -21,9 +21,9 @@
             <h1 id="nome" class=" class-name">Wolny Junior</h1>
             <h5 class="dev-web">Desenvolvedor Web</h5>
             <div class="botoes">
-                <a href="#sobre"><button class="btn btn-outline-info">Sobre</button></a>
-                <a href="#portifolio"><button class="btn btn-outline-info">Portifólio</button></a>
-                <a href="#contato"><button class="btn btn-outline-info">Contato</button></a>
+                <a class="botao-link" href="#sobre">Sobre</a>
+                <a class="botao-link" href="#portifolio">Portifólio</a>
+                <a class="botao-link" href="#contato">Contato</a>
             </div>
         </div>
         <div>
@@ -34,9 +34,9 @@
 
     <div class="sobre fs-4 d-flex justify-content-around m-5">
         <div>
-            <p id="sobre">Quem eu sou e o que faço</p>
+            <h2 id="sobre" class="texto-fade-in">Quem sou e o que faço</h2>
         </div>
-        <div class="texto-sobre fs-3 d-flex  align-items-center">
+        <div class="texto-sobre fs-3 d-flex align-items-center">
             <p>Meu nome é Wolny Junior.
                 Sou um programador junior. Gosto de trabalhar com desenvolvimento web, voltado mais para o front-end.
                 <br> Fiz o curso de Análise e Desenvolvimento de Sistemas e outro de Desenvolvimento Web Full Stack.
@@ -48,49 +48,99 @@
     </div>
     <h2  id="portifolio" class="text-center texto-sombra">Portifólio</h2>
     <div class="portifolio-linha">
-        <div class="cards">
-            <img class="img-card" src="./Images/jogo-memoria-react.png" alt="Imagen">
-            <div class="botoes">
-                <a href="https://jogo-da-memoria-react-liart.vercel.app/" target="_blank"><button class="btn-card btn btn-outline-warning">Confira</button></a>
-                <a href="https://github.com/WolnyJunior/JogoDaMemoria-React" target="_blank"><button class="btn-card btn btn-outline-light">Github</button></a>
+        <div class="cartao">
+            <div class="card-front">
+                <img class="img-card" src="./Images/jogo-memoria-react.png" alt="Imagen-Jogo-Memória">
+                <button class="bts btn-card btn btn-outline-light">Saiba Mais</button>
+            </div>
+            <div class="card-back">
+                <h3>Jogo da Memória - React</h3>
+                <p>Este projeto foi desenvolvido em aula, foi feito em react, a partir de um projeto anterior que havia sido desenvolvido somente em HTML, CSS e JS.</p>
+                <div>
+                <a href="https://jogo-da-memoria-react-liart.vercel.app/" target="_blank"><button class="btn-card btn btn-outline-dark">Confira</button></a>
+                <a href="https://github.com/WolnyJunior/JogoDaMemoria-React" target="_blank"><button class="btn-card btn btn-outline-dark">Github</button></a>
+                <button class="btn-card btn btn-outline-dark">Volta</button>
+                </div>
             </div>
         </div>
-        <div class="cards">
-            <img class="img-card" src="./Images/site-delicious.png" alt="Imagen">
-            <div class="botoes">
-                <a href="https://delicious-xi.vercel.app/" target="_blank"><button class="btn-card btn btn-outline-warning">Confira</button></a>
-                <a href="https://github.com/WolnyJunior/Delicious" target="_blank"><button class="btn-card btn btn-outline-light">Github</button></a>
+        <div class="cartao">
+            <div class="card-front">
+                <img class="img-card" src="./Images/site-delicious.png" alt="Imagen">
+                <button class="bts btn-card btn btn-outline-light">Saiba Mais</button>
+            </div>
+            <div class="card-back">
+                <h3>Site Delicious</h3>
+                <p>Este projeto foi feito para praticar habilidades HTML e CSS, também foram usadas algumas funções em JS. É um site para uma confeiteira divulgar seus produtos além das redes sociais</p>
+                <div>
+                <a href="https://delicious-xi.vercel.app/" target="_blank"><button class="btn-card btn btn-outline-dark">Confira</button></a>
+                <a href="https://github.com/WolnyJunior/Delicious" target="_blank"><button class="btn-card btn btn-outline-dark">Github</button></a>
+                <button class="btn-card btn btn-outline-dark">Volta</button>   
+                </div>
             </div>
         </div>
-        <div class="cards">
-            <img class="img-card" src="./Images/pag-receitas.png" alt="Imagen">
-            <div class="botoes">
-                <a href="https://pagina-de-receitas-two.vercel.app/" target="_blank"><button class="btn-card btn btn-outline-warning">Confira</button></a>
-                <a href="https://github.com/WolnyJunior/PaginaDeReceitas" target="_blank"><button class="btn-card btn btn-outline-light">Github</button></a>
+        <div class="cartao">
+            <div class="card-front">
+                <img class="img-card" src="./Images/pag-receitas.png" alt="Imagen">
+                <button class="bts btn-card btn btn-outline-light">Saiba Mais</button>
+            </div>
+            <div class="card-back">
+                <h3>Página de Receitas</h3>
+                <p>Este projeto foi desenvolvido para praticar HTML e CSS e aprender novas funções.</p>
+                <div>
+                <a href="https://pagina-de-receitas-two.vercel.app/" target="_blank"><button class="btn-card btn btn-outline-dark">Confira</button></a>
+                <a href="https://github.com/WolnyJunior/PaginaDeReceitas" target="_blank"><button class="btn-card btn btn-outline-dark">Github</button></a>
+                <button class="btn-card btn btn-outline-dark">Volta</button>
+                </div>
             </div>
         </div>
-        <div class="cards">
-            <img class="img-card" src="./Images/site-curriculo-ref.png" alt="Imagen">
-            <div class="botoes">
-                <a href="https://site-curriculo-ref.vercel.app/" target="_blank"><button class="btn-card btn btn-outline-warning">Confira</button></a>
-                <a href="https://github.com/WolnyJunior/site-curriculo-ref" target="_blank"><button class="btn-card btn btn-outline-light">Github</button></a>
+        <div class="cartao">
+            <div class="card-front">
+                <img class="img-card" src="./Images/site-curriculo-ref.png" alt="Imagen">
+                <button class="bts btn-card btn btn-outline-light">Saiba Mais</button>
+            </div>
+            <div class="card-back">
+                <h3>Trabalho Currículo</h3>
+                <p>Este projeto foi criado para um atividade do curso de ADS-Uninter. Era para criar um currículo usando a biblioteca do bootstrap e hospedar online.</p>
+                <div>
+                <a href="https://site-curriculo-ref.vercel.app/" target="_blank"><button class="btn-card btn btn-outline-dark">Confira</button></a>
+                <a href="https://github.com/WolnyJunior/site-curriculo-ref" target="_blank"><button class="btn-card btn btn-outline-dark">Github</button></a>
+                <button class="btn-card btn btn-outline-dark">Volta</button>
+                </div>
             </div>
         </div>
-        <div class="cards">
-            <img class="img-card" src="./Images/code.jpg" alt="Imagen">
-            <div class="botoes">
-                <a href="#"><button class="btn-card btn btn-outline-warning">Confira</button></a>
-                <a href="#"><button class="btn-card btn btn-outline-light">Github</button></a>
+        <div class="cartao">
+            <div class="card-front">
+                <img class="img-card" src="./Images/code.jpg" alt="Imagen">
+                <button class="bts btn-card btn btn-outline-light">Saiba Mais</button>
+            </div>
+            <div class="card-back">
+                <h3>Projeto</h3>
+                <p>Descrição do Projeto</p>
+                <div>
+                <a href="#nothing" target="_blank"><button class="btn-card btn btn-outline-dark">Confira</button></a>
+                <a href="#nothing" target="_blank"><button class="btn-card btn btn-outline-dark">Github</button></a>
+                <button class="btn-card btn btn-outline-dark">Volta</button>
+                </div>
             </div>
         </div>
-        <div class="cards">
-            <img class="img-card" src="./Images/code.jpg" alt="Imagen">
-            <div class="botoes">
-                <a href="#"><button class="btn-card btn btn-outline-warning">Confira</button></a>
-                <a href="#"><button class="btn-card btn btn-outline-light">Github</button></a>
+        <div class="cartao">
+            <div class="card-front">
+                <img class="img-card" src="./Images/code.jpg" alt="Imagen">
+                <button class="bts btn-card btn btn-outline-light">Saiba Mais</button>
+            </div>
+            <div class="card-back">
+                <h3>Projeto</h3>
+                <p>Descrição do projeto</p>
+                <div>
+                <a href="#nothing" target="_blank"><button class="btn-card btn btn-outline-dark">Confira</button></a>
+                <a href="#nothing" target="_blank"><button class="btn-card btn btn-outline-dark">Github</button></a>
+                <button class="btn-card btn btn-outline-dark">Volta</button>
+                </div>
             </div>
         </div>
+
     </div>
+
     <div>
         <h2 class="text-center texto-fade-in">Tecnologias</h2>
         <div class="fundo-techs">            

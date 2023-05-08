@@ -11,3 +11,10 @@
 // function iniciarTypeWriter(){
 //     setInterval(typeWriter, 100)
 // }
+var cards = document.querySelectorAll('.cartao');
+
+[...cards].forEach((cartao) => {
+    cartao.addEventListener('click', function () {
+        cartao.classList.toggle('flip');
+    });
+});
