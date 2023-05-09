@@ -2,7 +2,6 @@
 
 <a href="https://portfolio-2023-dusky.vercel.app/"><img src="./Images/portifolio-2023.jpg"  style="width: 150px;" alt="imagem-portifolio"></a>
 <figcaption>Clique na imagem para ver o site.</figcaption>
-
 <br>
 <p>Site portifólio que está sendo desenvolvido para divulgar meus conhecimentos e habilidades.</p>
 
