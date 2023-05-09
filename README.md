@@ -1,5 +1,9 @@
 <h1>Site portifólio</h1>
 
+<a href="https://portfolio-2023-dusky.vercel.app/"><img src="./Images/portifolio-2023.jpg"  style="width: 150px;" alt="imagem-portifolio"></a>
+<figcaption>Clique na imagem para ver o site.</figcaption>
+
+<br>
 <p>Site portifólio que está sendo desenvolvido para divulgar meus conhecimentos e habilidades.</p>
 
 <h3>Links</h3>
@@ -11,5 +15,3 @@
 
 <h3>Responsividade</h3>
 <p>O site ainda não está 100% responsivo. Está sendo feito conforme são adicionadas novas funcionalidades e estilos.</p>
-
-<a href="https://portfolio-2023-dusky.vercel.app/"><img src="blob:https://vercel.com/0a5eae1f-3857-4dc7-bcd8-9b3bba594af9" alt="imagem-portifolio"></a>
