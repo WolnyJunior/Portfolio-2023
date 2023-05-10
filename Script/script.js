@@ -1,16 +1,3 @@
-// var i = 0;
-// var txt = 'Sorin Junior';
-
-// function typeWriter() {
-//     if (i < txt.length) {
-//         document.getElementById("nome").innerHTML += txt.charAt(i);
-//         i++;
-//     }
-// }
-
-// function iniciarTypeWriter(){
-//     setInterval(typeWriter, 100)
-// }
 var cards = document.querySelectorAll('.cartao');
 
 [...cards].forEach((cartao) => {
@@ -18,7 +5,6 @@ var cards = document.querySelectorAll('.cartao');
         cartao.classList.toggle('flip');
     });
 });
-
 
 function goToTop() {
     document.querySelector('.top').scrollIntoView({ behavior: 'smooth' });
