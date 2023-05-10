@@ -12,4 +12,5 @@
 <h3>Responsividade</h3>
 <p>O site ainda não está 100% responsivo. Está sendo feito conforme são adicionadas novas funcionalidades e estilos.</p>
 
-<a href="https://portfolio-2023-dusky.vercel.app/"><img src="blob:https://vercel.com/0a5eae1f-3857-4dc7-bcd8-9b3bba594af9" alt="imagem-portifolio"></a>
+<a href="https://portfolio-2023-dusky.vercel.app/"><img src="./Images/portifolio-2023.jpg"  style="width: 150px;" alt="imagem-portifolio"></a>
+<figcaption>Clique na imagem para acessar</figcaption>
