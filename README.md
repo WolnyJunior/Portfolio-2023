@@ -14,6 +14,10 @@
 <h3>Responsividade</h3>
 <p>O site ainda não está 100% responsivo. Está sendo feito conforme são adicionadas novas funcionalidades e estilos.</p>
 
+<h3>Buttons</h3>
+
+<p>Em alguns botões adicionados, e em alguns layouts, foi utilizado os estilos da biblioteca <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="50px" />.</p>
+
 <h3>Botão Topo</h3>
 <p>Foi adicionado um botão para ir ao topo da página. Usando uma function() com JS</p>
 
