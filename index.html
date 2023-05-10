@@ -15,10 +15,10 @@
 </head>
 
 <body>
-    <div class="box container">
-        <div>
+    <div class="top box container">
+        <div class="apresentacao">
             <h2 class="ola">Olá, sou o</h2>
-            <h1 id="nome" class=" class-name">Wolny Junior</h1>
+            <h1 id="nome" class="class-name">Wolny Junior</h1>
             <h5 class="dev-web">Desenvolvedor Web</h5>
             <div class="botoes">
                 <a class="botao-link" href="#sobre">Sobre</a>
@@ -32,15 +32,15 @@
     </div>
     <div class="fundo-tela-codigo"></div>
 
-    <div class="sobre fs-4 d-flex justify-content-around m-5">
+    <div id="sobre" class="sobre">
         <div>
-            <h2 id="sobre" class="texto-fade-in">Quem sou e o que faço</h2>
+            <h2 class="texto-fade-in">Coisas sobre mim...</h2>
         </div>
-        <div class="texto-sobre fs-3 d-flex align-items-center">
+        <div class="texto-sobre">
             <p>Meu nome é Wolny Junior.
                 Sou um programador junior. Gosto de trabalhar com desenvolvimento web, voltado mais para o front-end.
-                <br> Fiz o curso de Análise e Desenvolvimento de Sistemas e outro de Desenvolvimento Web Full Stack.
-                <br> Já desenvolvi alguns projetos que pode ser acessado abaixo e continuo estudando e praticando para
+                <br> Formado em Análise e Desenvolvimento de Sistemas, ainda fiz um curso extra de Desenvolvimento Web Full Stack.
+                <br> Já desenvolvi alguns projetos que podem ser acessados abaixo, e continuo estudando e praticando para
                 me
                 desenvolver.
             </p>
@@ -166,7 +166,7 @@
     </div>
 
     <footer>
-        <a href=""><img src="" alt=""></a>
+            <button class="go-to-top-btn invisible" onclick="goToTop()" src="./Images/icons/seta-para-recolher-50.png" alt="imagem-seta">^</button>    
     </footer>
     <script src="Script/script.js"></script>
 </body>
