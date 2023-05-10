@@ -1,3 +1,5 @@
+<img width="48" height="48" src="https://img.icons8.com/badges/48/cancel-2.png" alt="cancel-2"/>
+<br>
 <h1>Site portifólio</h1>
 
 <p>Site portifólio que está sendo desenvolvido para divulgar meus conhecimentos e habilidades.</p>
