@@ -7,15 +7,14 @@
 <h3>Links</h3>
 <p>Foram adicionados os links, redirecionando para as páginas de contato, e de exibição dos projetos.</p>
 
-<h3>Cards</h3>
+<h3>Cards</h3><img width="48" height="48" src="https://img.icons8.com/badges/48/bank-cards.png" alt="bank-cards" width="50px"/>
 <p>Foram criados os cards com os links dos repositórios e hospedagem.</p>
 <p>Foi usado uma function para flipar os cards e mostrar mais informações.</p>
 
 <h3>Responsividade</h3>
-<p>O site ainda não está 100% responsivo. Está sendo feito conforme são adicionadas novas funcionalidades e estilos.</p>
+<p>Foi atualizado a responsividade.<p/>
 
 <h3>Buttons</h3>
-
 <p>Em alguns botões adicionados, e em alguns layouts, foi utilizado os estilos da biblioteca <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="50px" />.</p>
 
 <h3>Botão Topo</h3>
